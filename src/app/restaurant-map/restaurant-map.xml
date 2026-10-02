@@ -1,0 +1,8 @@
+<div class="toolbar">
+  <button type="button" (click)="findRestaurants()">
+    Find restaurants near me
+  </button>
+  <p>{{ status }}</p>
+</div>
+
+<div id="map"></div>

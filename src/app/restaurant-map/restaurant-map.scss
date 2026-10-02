@@ -1,0 +1,20 @@
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+.toolbar {
+  position: fixed;
+  z-index: 1000;
+  top: 16px;
+  left: 60px;
+  padding: 12px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 8px #0003;
+}
+
+button {
+  padding: 10px 14px;
+  cursor: pointer;
+}
